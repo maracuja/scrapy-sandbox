@@ -2,7 +2,7 @@
 
 import scrapy
 
-from tutorial.items import TextItem
+from project.items import TextItem
 
 
 class NaverSpider(scrapy.Spider):

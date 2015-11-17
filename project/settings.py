@@ -9,12 +9,13 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'tutorial'
+# god knows why i've called it project
+BOT_NAME = 'project'
 
-SPIDER_MODULES = ['tutorial.spiders']
-NEWSPIDER_MODULE = 'tutorial.spiders'
+SPIDER_MODULES = ['project.spiders']
+NEWSPIDER_MODULE = 'project.spiders'
 
-ITEM_PIPELINES = {'tutorial.pipelines.UnicodePipeline': 1}
+ITEM_PIPELINES = {'project.pipelines.UnicodePipeline': 1}
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent

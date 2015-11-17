@@ -1,6 +1,6 @@
 import scrapy
 
-from tutorial.items import DmozItem
+from project.items import DmozItem
 
 
 class DmozSpider(scrapy.Spider):
