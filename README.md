@@ -12,6 +12,6 @@ scrapy crawl bbc
 scrapy crawl naver
 
 # get a ton of Chinese from Xinhua
-scrapy crawl naver
+scrapy crawl xinhua
 
 ```
